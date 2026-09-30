@@ -326,8 +326,11 @@ export default function Home() {
                 <span className="text-2xl" aria-hidden="true">
                   📍
                 </span>
-                <h3 className="font-bold">Service area</h3>
-                <p>{site.serviceArea}</p>
+                <h3 className="font-bold">Location</h3>
+                <p>{site.fullAddress}</p>
+                <a href={site.mapsUrl} target="_blank" rel="noopener noreferrer" className="link link-primary text-sm">
+                  Open in Google Maps
+                </a>
               </div>
             </div>
             <div className="card border border-base-300 bg-base-100">

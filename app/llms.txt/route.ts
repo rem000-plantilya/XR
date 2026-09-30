@@ -11,7 +11,8 @@ export function GET() {
 ## Contact
 - Mobile: ${site.phone}
 - Facebook: ${site.facebook}
-- Email: ${site.email}
+- Address: ${site.fullAddress}
+- Map: ${site.mapsUrl}
 - Service area: ${site.serviceArea}
 - Hours: ${site.hours}
 - Online inquiry form: ${site.url}/#inquire

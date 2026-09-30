@@ -30,11 +30,8 @@ Security: RLS lets the public site **insert only**. Nobody can read inquiries wi
 Everything (phone, Facebook link, service area, hours, prices, penalties, FAQ) lives in **`lib/site.ts`**.
 The phone number and Facebook link are placeholders — replace them there.
 
-After editing prices/penalties/contacts, regenerate the printable contract:
-
-```bash
-npm run contract   # writes public/XR-Rentals-Rental-Agreement.docx
-```
+The printable contract is `public/XR-Rentals-Rental-Agreement.docx` (edit it in Word).
+If you change prices or penalties, update both the contract and `lib/site.ts` so they match.
 
 ## SEO / GEO / AI search
 

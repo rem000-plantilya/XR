@@ -20,6 +20,10 @@ export const metadata: Metadata = {
     "smart videoke rental",
     "tent rental",
     "party rentals Philippines",
+    "table and chair rental Tanza Cavite",
+    "videoke rental Tanza",
+    "tent rental Cavite",
+    "party rentals Cavite",
     "event rentals",
     "rent tables and chairs near me",
   ],
@@ -39,7 +43,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   category: "Event rentals",
-  other: { "geo.region": "PH", "geo.placename": site.address.locality },
+  other: { "geo.region": "PH-CAV", "geo.placename": `${site.address.locality}, ${site.address.region}` },
 };
 
 export const viewport: Viewport = {
